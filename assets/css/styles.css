@@ -114,7 +114,7 @@
     flex-direction: column;
     justify-content: flex-end;
     background-color: var(--secondary-color, #F4F0EA);
-    padding: 7rem;
+    padding: 5rem;
     gap: 3rem;
 }
 
@@ -125,6 +125,7 @@
 }
 
 .content__title {
+    word-break: break-word;
     font-size: 7rem;
     line-height: 7.4rem;
 }
@@ -132,7 +133,7 @@
 .content__body {
     display: flex;
     flex-direction: column;
-    row-gap: 5rem;
+    row-gap: 3rem;
 }
 
 .content__section {
@@ -146,7 +147,7 @@
 }
 
 .content__text {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     line-height: 2.2rem;
 }
 
@@ -161,6 +162,7 @@
     .block__item:not(:has(.block__image)) {
         order: 1;
         padding: 2rem 2rem;
+        justify-content: flex-start;
         height: auto;
     }
 
