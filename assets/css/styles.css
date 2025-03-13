@@ -52,3 +52,37 @@
     line-height: 2.2rem;
     font-size: 1.8rem;
 }
+
+@media screen and (max-width: 768px) {
+    .block-hero {
+        row-gap: 2rem;
+    }
+
+    .block-hero__title {
+        font-size: 3.2rem;
+        line-height: 4.2rem;
+    }
+
+    .block-hero__content {
+        column-gap: 1.6rem;
+    }
+
+    .block-hero__image {
+        width: 23rem;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .block-hero__content {
+        gap: 0.8rem;
+    }
+
+    .block-hero__text {
+        font-size: 1.4rem;
+    }
+
+    .block-hero__image {
+        width: 17.7rem;
+    }
+}
